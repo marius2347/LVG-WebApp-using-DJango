@@ -1,0 +1,83 @@
+/* General Styling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+}
+
+/* Sticky Navbar and Divider */
+.sticky-navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; /* Ensure background color matches navbar */
+}
+
+.navbar-divider {
+    border: none;
+    border-top: 2px solid black; /* Black line with 2px thickness */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1em;
+    padding: 8px 15px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 50vh; /* Smaller height for mobile screens */
+        object-fit: contain; /* Ensure full image displays without cropping */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.3em;
+        padding: 4px 8px;
+    }
+
+    .carousel-caption p {
+        font-size: 1em;
+        padding: 2px 6px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2em;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9em;
+    }
+
+    .navbar-divider {
+        margin-bottom: 0;
+    }
+
+    .carousel {
+        margin-top: 0;
+    }
+}
