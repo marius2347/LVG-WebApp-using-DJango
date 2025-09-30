@@ -21,14 +21,11 @@ This repository contains the full source code, a demo video, and instructions fo
 
 ---
 
-## 🎬 Demo / Proof of Work
+## 🎬 Demo 
 
-You can see the web application in action by watching the included video:
+You can see the web application in action:
 
-**webvideo.mp4**
-
-> *(Ensure your GitHub repo includes `webvideo.mp4` so viewers can download/watch it.)*
-
+![Demo of LVG WebApp](webvideo.gif)
 ---
 
 ## 🛠️ Setup & Installation
@@ -118,13 +115,6 @@ If you have questions, suggestions, or want to collaborate:
 
 **Email**: mariusc0023@gmail.com
 
----
-
-## 📓 License
-
-*(If you have a preferred license, insert it here. If none, you can add an open source license like MIT, Apache, GPL, etc.)*
-
----
 
 Thank you for checking out **LVG WebApp** — enjoy exploring the code and video demonstration!
 
