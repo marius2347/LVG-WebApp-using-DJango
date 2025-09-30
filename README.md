@@ -97,18 +97,6 @@ While the full list of features depends on the internal code, typical features y
 
 ---
 
-## 🧩 How to Contribute
-
-1. Fork the repository  
-2. Create a feature branch: `git checkout -b feature/my-feature`  
-3. Commit your changes  
-4. Push to your fork: `git push origin feature/my-feature`  
-5. Open a Pull Request  
-
-Please ensure your code follows good practices, includes documentation and, where applicable, tests.
-
----
-
 ## 📞 Contact
 
 If you have questions, suggestions, or want to collaborate:
